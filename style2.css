@@ -1,0 +1,221 @@
+
+header{
+  width: 100%;
+  top: 0;
+}
+header table{
+  padding: 0px;
+  top: 0px;
+}
+.header{
+  padding-left: 30px;
+}
+.logo{
+  padding-top: 5px;
+}
+
+.main-title{/*it wouldnt go in the centre*/
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*themes*/
+.t--light{
+  background-color: #e2e2e2;
+}
+.t--light header{
+  border: 2px solid #73AD21;
+	background-color: #348752;
+}
+.t--light .top{
+  background-color: #444;
+  color: black;
+}
+.t--light .top li{
+  background-color: #aaa9a9;
+  border: 1px solid black;
+}
+.t--light .top li:hover{
+  background: #5b5b5b;
+}
+.t--light .side{
+  background-color: #a3a3a3;
+}
+.t--light .side a{
+  color: black
+}
+.t--light .side a:hover {
+  color: #000000;
+}
+.t--light .side ul li ul a{
+  color: #818181;
+}
+.t--light footer{
+  background: #c1bfbf;
+  border: 1px solid black;
+}
+.t--light .top li.page{
+  background-color: #adc9f7;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.t--light .top li.page:hover{
+  background-color: #adc9f7;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+/*========================*/
+
+.t--dark{
+  background-color: #424242;
+  color: #d1d1d1
+}
+.t--dark header{
+  border: 2px solid #bcb7b7;
+	background-color: #605353;
+  color: #d1d1d1
+}
+.t--dark .top{
+  background-color: #232323;
+  color: white;/*#d1d1d1*/
+}
+.t--dark .top li{
+  background-color: #aaa9a9;
+  border: 1px solid white;
+}
+.t--dark .top li:hover{
+  background: #5b5b5b;
+}
+.t--dark .side{
+  background-color: #383131;
+}
+.t--dark .side a{
+  color: #bcb8b8;
+}
+.t--dark .side a:hover {
+  color: #bcb8b8;
+}
+.t--dark .side ul li ul a{
+  color: white;
+}
+.t--dark footer{
+  background: #424242;
+  border: 1px solid black;
+  color: #d1d1d1
+}
+.t--dark .top li.page{
+  background-color: #adc9f7;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.t--dark .top li.page:hover{
+  background-color: #adc9f7;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+/*buttons*/
+/*==============================================*/
+nav .top {
+  height: 40px;
+  width: 100%; /
+  position: sticky; /*dosn't work*/
+}
+.top a {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  font-style: normal;
+  color: black;
+}
+.top ul{
+  margin: 0;
+  padding-left: 40%;
+  list-style-type: none;
+}
+.top li{
+  height: 30px;
+  margin: 4px;
+  padding-left: 2%;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  position: relative;
+  border-radius: 4px;
+}
+
+/*======================================================================*/
+}
+nav{
+  margin: 0px;
+}
+
+.side {
+  float: left;
+  margin: 0px;
+  height: 100%;
+  width: 17%;
+  position: sticky;/*stil not working*/
+  top: 0;
+  opacity: .9;
+  padding-top: 40px;
+}
+.side ul{
+  list-style-type: none;
+}
+.side a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+
+/*====================================================*/
+.main{
+  margin-top: 0;
+  width: 80%;
+  float:right;
+  padding-bottom: 50px;
+}
+.main-side{
+  margin-top: 0;
+  width: 100%;
+  float:right;
+  padding-bottom: 50px;
+}
+
+footer{
+	padding: 0px;
+  margin: 0px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+}
+footer h4{
+  padding: 0;
+  position: relative;
+  margin: 0;
+  margin-left: 40%;
+}
+
+
+/*===================================*/
+.c-container {
+  height: 100%;
+  width: 100%;
+  /*transition-duration: .3s;*/
+  transition-property: *;
+}
+
+.c-menu {
+  width: auto;
+  height: 40px;
+  padding: 0;
+
+  transition-duration: .3s;
+  transition-property: *;
+}
