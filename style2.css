@@ -1,0 +1,88 @@
+body{
+  /*background-image: url("img/background3.jpg");*/
+  background-repeat: repeat;
+  background-color: #cccccc;
+  font-family: Century;
+  font-size: 1.2rem;
+  min-height: 100%
+}
+
+.page{
+  margin: 0px auto;
+  padding:1rem;
+  height: auto;
+  top: 3rem;
+}
+
+.header{
+  padding: 1rem;
+  background-color: rgba(225,215,212,0.95);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  position: relative;
+}
+
+.logo{
+  padding: 0.2rem;
+  padding-top: 0rem;
+  position: relative;
+  max-width: 99%;
+}
+
+.logo ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0.1rem;
+}
+
+.logo ul img{
+  padding-left: 0.5rem;
+}
+
+.navigation ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+}
+
+.header a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 1px;
+}
+
+.navigation a{
+  border-left-style: solid;
+  border-left-width: 0.15rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+}
+
+
+.header .option:hover{
+  color: darkgrey;
+}
+
+.navigation ul li .pageOn{
+  padding-top: 0rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-bottom: 0.2rem;
+}
+
+.centre {
+  width: 70%;
+  position: relative;
+  //top: 3rem;
+  left: 15%
+}
+
+.textc{
+  text-align: center;
+}

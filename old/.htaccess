@@ -1,0 +1,16 @@
+
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+
+# Deny access to DB.php
+#<FilesMatch ".*DB\.php">
+#Order allow,deny
+#Deny from all
+#</Files>
+
+# Disable directory browsing 
+#Options -Indexes
